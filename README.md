@@ -13,9 +13,9 @@
 
 
 
-DAO.java
+```DAO.java```
 
-'''
+```java
 package com.web.filecounter;
 
 import java.io.BufferedReader;
@@ -76,11 +76,11 @@ public class DAO {
     }
   }
 } 
-'''
+```
 
-FileCounter.java
+```FileCounter.java```
 
-'''
+```java
 package com.web.filecounter;
 
 import java.io.IOException;
@@ -154,4 +154,4 @@ public class FileCounter extends HttpServlet {
     }
   }
 }
-'''
+```
