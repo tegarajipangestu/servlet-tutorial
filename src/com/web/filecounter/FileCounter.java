@@ -35,7 +35,7 @@ public class FileCounter extends HttpServlet {
 		// TODO Auto-generated method stub
 	    HttpSession session = request.getSession(true);
 	    // Set the session valid for 5 secs
-//	    session.setMaxInactiveInterval(5);
+	    session.setMaxInactiveInterval(1);
 	    response.setContentType("text/plain");
 	    PrintWriter out = response.getWriter();
 	    if (session.isNew()) {
